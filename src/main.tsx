@@ -1,9 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import Card from "./Main/Card/index.tsx";
+
+import Apps from "./Apps";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Card />
+    <Apps />
   </StrictMode>
 );
